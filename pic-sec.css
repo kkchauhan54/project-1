@@ -1,0 +1,47 @@
+#super{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic{
+    margin: 10px 10px;
+}
+#lawn{
+    background: url(pictures/lawn.jpg);
+    background-size: 100%;
+    height: 370px;
+    width: 800px;
+}
+#circle{
+    background: url(pictures/circle.jpg);
+    background-size: 100%;
+    height: 370px;
+    width: 250px;
+    border: 2px;
+    border-top-left-radius:150px;
+    border-top-right-radius: 150px;
+}
+#caffe{
+    background: url(pictures/cafe.jpg);
+    background-size: 100%;
+    height: 300px;
+    width: 500px;
+}
+#get-to{
+    font-size: 3rem;
+    font-weight: bold;
+    align-self:last baseline;
+}
+#get-to a{
+    text-decoration: none;
+    color: rgba(255,92,44,255);
+}
