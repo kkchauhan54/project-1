@@ -1,0 +1,39 @@
+.secx1{
+display: flex;
+justify-content: space-between;
+color:rgba(255,92,44,255);
+font-size: 1.5rem;
+}
+.box{
+    border: 2px;
+    height: 500px;
+    width: 500px;
+    margin: 70px 70px;
+    transform: skew(-10deg) rotate(2deg);
+  -webkit-transform: skew(-10deg) rotate(2deg);
+  -moz-transform: skew(-10deg) rotate(2deg);
+}
+#idbox1{
+    background: url(pictures/hutt.jpg);
+    background-size: 100%;
+    height: 460px;
+    width: 500px;
+}
+#idbox2{
+    background: url(pictures/build2.jpg);
+    background-size: 100%;
+    height: 460px;
+    width: 500px;
+}
+#idbox3{
+    background: url(pictures/build1.jpg);
+    background-size: 100%;
+    height: 460px;
+    width: 500px;
+}
+#idbox4{
+    background: url(pictures/field.jpg);
+    background-size: 100%;
+    height: 460px;
+    width: 500px;
+}
